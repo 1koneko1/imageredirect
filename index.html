@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title></title>
+
     <meta property="og:title" content="">
     <meta property="og:description" content="">
     <meta property="og:image" content="https://1koneko1.github.io/imageredirect/image.jpg">
@@ -9,14 +11,13 @@
     <meta name="twitter:card" content="summary_large_image">
 
     <style>
-        html, body {
+        body {
             margin: 0;
-            padding: 0;
+            padding: 20px;
         }
 
-        img {
-            display: block;
-            width: 100%;
+        .thumbnail {
+            width: 300px;
             height: auto;
             cursor: pointer;
         }
@@ -26,7 +27,11 @@
 <body>
 
     <a href="https://google.com">
-        <img src="image.jpg" alt="">
+        <img
+            class="thumbnail"
+            src="https://1koneko1.github.io/imageredirect/image.jpg"
+            alt=""
+        >
     </a>
 
 </body>
